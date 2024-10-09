@@ -26,7 +26,8 @@ function App() {
           <button className='search' onClick={SearchCep}><CiSearch /></button>
         </div>
 
-        {setCep &&(
+         {cep && Object.keys(cep).length > 0 &&(
+          
           <div className="result">
             <p>Cep: <strong>{cep.cep}</strong></p>
             <p>Logradouro: <strong>{cep.logradouro}</strong></p>
@@ -34,6 +35,7 @@ function App() {
             <p>DDD: <strong>{cep.ddd}</strong></p>
             <p>Regiao: <strong>{cep.regiao}</strong></p>
           </div>
+
         )}
       </div>
     
