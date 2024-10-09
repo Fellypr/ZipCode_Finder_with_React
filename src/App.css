@@ -1,0 +1,77 @@
+body{
+  background-image: url("imagem/world-map-portuguese.webp") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+} 
+.container{
+  backdrop-filter: blur(5px);
+  border: 2px solid #312b2b;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 33em;
+  height: 33em;
+  border-radius: 34px;
+}
+.container h1{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200%;
+  font-style: normal;
+}
+.inputbutton{
+  position: relative;
+  top: 13%;
+  left: 20%;
+}
+.inputbutton input{
+  width: 25em;
+  height: 30px;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+}
+.inputbutton input:focus{
+  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+}
+.inputbutton button{
+  height: 31px;
+  position: absolute;
+  top: 1px;
+  left: 19.5rem;
+  border-radius: 24px;
+}
+.result{
+  position: absolute;
+  top: 12em;
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200%;
+  font-style: normal;
+}
+strong{
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+.search{
+  border: none;
+  outline: none;
+
+}
+.search:hover{
+  cursor: pointer;
+  background-color: rgb(206, 202, 202);
+
+}
