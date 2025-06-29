@@ -1,8 +1,7 @@
 body {
   background-image: url("img/colored-political-world-map-h5a21vusizq9uaau.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  height: auto;
 }
 .container {
   backdrop-filter: blur(5px);
