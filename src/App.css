@@ -1,12 +1,6 @@
 body {
   overflow-x: hidden;
-}
-.body {
-  background-image: url("img/colored-political-world-map-h5a21vusizq9uaau.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  background-color: rgb(11, 187, 158);
 }
 .container {
   background-color: rgba(54, 53, 53, 0.233);
