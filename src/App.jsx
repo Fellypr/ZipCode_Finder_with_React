@@ -23,9 +23,9 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="body">
       <div className="container">
-        <h1>Buscador de cep</h1>
+        <h1>Buscador de Cep</h1>
         <div className="inputbutton">
           <input
             value={input}
